@@ -1,0 +1,42 @@
+.medical-list-form {
+    border: 1px solid #8bf20d;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 5px;
+    border: 1px solid #8bf20d;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #8bf20d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .item {
+    border: 1px solid #8bf20d;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgb(100, 85, 240);
+  }
+  
